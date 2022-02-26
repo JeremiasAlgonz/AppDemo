@@ -29,7 +29,7 @@ namespace AwesomeApp.Pages
             {
                 Children =
                 {
-                    //mapa
+                    mapa
                 }
             };
         }

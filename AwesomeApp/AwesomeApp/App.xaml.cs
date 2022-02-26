@@ -9,7 +9,8 @@ namespace AwesomeApp
     {
         public App()
         {
-            MainPage = new MenuPage();
+            //MainPage = new MenuPage();
+            MainPage = new NavigationPage(new LoginUI());
         }
 
         protected override void OnStart()

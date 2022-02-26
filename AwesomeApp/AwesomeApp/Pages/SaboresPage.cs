@@ -9,14 +9,15 @@ namespace AwesomeApp.Pages
         {
             Title = "Sabores";
 
-            var lista = new ListView();
-
-            lista.ItemsSource = new []
+            var lista = new ListView
+            {
+                ItemsSource = new[]
             {
                 "Calabresa",
                 "Portuguesa",
                 "Mussarela",
                 "Paulista",
+            }
             };
 
             lista.ItemTapped += (sender, e) =>
