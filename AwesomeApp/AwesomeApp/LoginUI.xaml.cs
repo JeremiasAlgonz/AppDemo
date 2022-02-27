@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using AwesomeApp.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -35,6 +31,11 @@ namespace AwesomeApp
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             DisplayAlert("Vish", "Não implementamos ainda...", "Ok");
+        }
+
+        private void TapGestureRecognizer_Tapped_Register(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
         }
     }
 }

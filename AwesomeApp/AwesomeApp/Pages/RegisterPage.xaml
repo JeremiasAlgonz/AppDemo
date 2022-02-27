@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AwesomeApp.Pages.RegisterPage"
+             BackgroundColor="#ffffff"
+             Title="Cadastro de Usuário">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Start" HorizontalOptions="FillAndExpand">
+            <Image
+                Source="Profile.png" 
+                WidthRequest="100" 
+                HeightRequest="100" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer 
+                        Tapped="TapGestureRecognizer_ProfilePic_Tapped">
+                    </TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label HorizontalOptions="Center" Padding="10">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Foto de Perfil" TextColor="Gray"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Entry x:Name="txtNewUsername" Placeholder="Nome de Usuário"></Entry>
+            <Entry x:Name="dateNewUserBirth" Placeholder="Data de Nasc.: (dd/mm/aaaa)"></Entry>
+            <Entry x:Name="intNewUserPhone" Placeholder="Telefone"></Entry>
+            <Entry x:Name="charNewUserEmail" Placeholder="Email"></Entry>
+            <Entry x:Name="txtNewUserPassword" Placeholder="Nova Senha" IsPassword="True"></Entry>
+            <Line></Line>
+                <Button Padding="15" Text="   Registrar   "
+                    HorizontalOptions="Center"
+                    TextColor="#8c52ff"
+                    BackgroundColor="Transparent"
+                    BorderColor="#8c52ff"
+                    BorderWidth="1.5"
+                    Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
