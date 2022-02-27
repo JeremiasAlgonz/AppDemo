@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeApp.Android", "Aweso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeApp.iOS", "AwesomeApp\AwesomeApp.iOS\AwesomeApp.iOS.csproj", "{D99A3C94-B8AF-46D2-9CD0-2655AD5105CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeApp", "AwesomeApp\AwesomeApp\AwesomeApp.csproj", "{990972B7-04D0-4AE8-A292-E4353563FFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeApp", "AwesomeApp\AwesomeApp\AwesomeApp.csproj", "{990972B7-04D0-4AE8-A292-E4353563FFCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
